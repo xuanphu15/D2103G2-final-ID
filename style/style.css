@@ -1,0 +1,188 @@
+body
+{
+    margin: 0;
+    height: 960px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    position: fixed;
+}
+.logo{
+    width: 25%;
+    height: 80px;
+    background-color: black;
+    float: left;
+    font-size: 60px;
+    vertical-align: middle;
+}
+.piclogo{
+   width: 20%;
+   padding-top: 10px;
+   padding-left: 20px;
+   display: inline-block;
+}
+.piclogo img{
+  height: 60px;
+}
+.menu{
+  width: calc(63% - 5px);
+  height: 60px;
+  display: inline-block;
+  background-color: black;
+  padding-left: 111px;
+  padding-top: 20px;
+}
+.menu ul{
+  list-style: none;
+  text-align: left;
+}
+.menu li{
+  display: inline-block;
+  margin: 0 24px;
+}
+.menu li a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.icon{
+    width: 5%;
+    height: 80px;
+    background-color: black;
+    float: right;
+    color: #f1f1f1;
+}
+.fisrtpage{
+  width: 100%;
+  height: 900px;
+  background-color: black ;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-size: 100px;
+}
+.pic{
+  width: 5%;
+  vertical-align: middle;
+  padding-top: 150px;
+  padding-left: 150px;
+  display: inline-block;
+}
+.pic img{
+  height: 600px;
+}
+.cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: crimson;
+  background-color: transparent;
+  border: 2px solid crimson;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-top: 30px;
+  transition: .3s ease;
+  transition-property: background-color, color;
+  text-decoration: none;
+}
+.cta:hover{
+  color: white;
+  background-color: crimson;
+}
+.noidung{
+    width: 100%;
+    height: 900px;
+    background: url(../image/Image\ about\ texture\ in\ editing\ needs\ by\ Private\ User.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-size: 100px;
+}
+.content{
+  width: calc(20%-5px);
+  height: 10px;
+  padding-left: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 20px;
+  color: #f1f1f1;
+}
+.pic-1{
+   width: 5%;
+   vertical-align: middle;
+   padding-top: 150px;
+   padding-right: 550px;
+   display: inline-block;
+}
+.pic-1 img{
+  height: 600px;
+}
+.pic-2{
+  width: 5%;
+  vertical-align: middle;
+  padding-top: 150px;
+  padding-left: 200px;
+  display: inline-block;
+}
+.pic-2 img{
+ height: 600px;
+}
+.pic-3{
+  width: 5%;
+  vertical-align: middle;
+  padding-top: 150px;
+  padding-left: 300px;
+  display: inline-block;
+}
+.pic-3 img{
+ height: 600px;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #818181;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
